@@ -28,8 +28,6 @@ window.onload = function () {
     };
 
     // Create the PDF from the HTML
-    html2pdf().from(element).set(opt).save().then(() => {
-        // **Do not show the button again (It remains hidden)**
-        console.log("PDF downloaded, button hidden permanently.");
+    html2pdf().from(element).set(opt).save();
 });
 };
