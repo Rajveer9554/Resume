@@ -15,7 +15,10 @@ body {
     text-align:left;
     justify-content: space-between;
     flex-direction: column;
-    flex-direction: row;
+    
+    overflow: hidden; /* Prevent content from overflowing */
+    max-height: 100vh; /* Prevent scrolling out of the screen */
+    overflow-y: auto; /* Allow vertical scrolling if content overflows */
     
     display: flex;
     
