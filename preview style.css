@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #353333;
+}
+.preview-container {
+    width: 210mm;
+    height: 247mm;
+    background:white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    width: 100%;
+    margin: auto;
+    text-align:left;
+    justify-content: space-between;
+    flex-direction: column;
+    display: flex;
+    
+}
+.preview-container  h2{
+
+    border-color: black;
+    background-color: grey;
+    border-radius: 8px;
+    border-end-start-radius: 5px;
+    
+    border-bottom-right-radius: 5px;
+    
+    
+}
+h1{text-align: center;}
+
+
+#preview-work-exp{
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    width: 100%;
+}
+#preview-education{
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    width: 100%;
+}
+#preview-expertise{
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    width: 100%;
+}
+img {
+    width: 200px;
+    border-radius: 50%;
+    display: block;
+    margin: 10px;
+    height: 200px;
+  
+}
+#download-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 32px;
+    font-size: 16px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
