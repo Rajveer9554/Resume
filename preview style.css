@@ -17,8 +17,7 @@ body {
     flex-direction: column;
     
     overflow: hidden; /* Prevent content from overflowing */
-    max-height: 100vh; /* Prevent scrolling out of the screen */
-    overflow-y: auto; /* Allow vertical scrolling if content overflows */
+   
     display: flex;
     
 }
