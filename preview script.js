@@ -23,7 +23,7 @@ window.onload = function () {
         margin:       1,
         filename:     'resume.pdf',
         image:        { type: 'jpeg', quality: 0.98 },
-        html2canvas:  { scale: 1.5},
+        html2canvas:  { scale: 1.4},
         jsPDF:        { unit: 'mm', format: 'a4', orientation: 'portrait' }
     };
 
