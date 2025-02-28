@@ -29,8 +29,7 @@ window.onload = function () {
 
     // Create the PDF from the HTML
     html2pdf().from(element).set(opt).save().then(() => {
-        // **Hide unwanted text after download**
-        document.body.style.overflow = "auto";
-        document.body.style.height = "auto";
+        // **Do not show the button again (It remains hidden)**
+        console.log("PDF downloaded, button hidden permanently.");
 });
 };
